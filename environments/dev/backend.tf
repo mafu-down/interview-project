@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-chalng-ic-842-bf-bf-remote-state"
+    bucket = "sh-chalng-ic-842-bf-bf-remote-state"
     prefix = "env/dev"
   }
 }
