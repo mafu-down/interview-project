@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-bf-remote-state"
+    bucket = "-chalng-ic-842-bf-bf-remote-state"
     prefix = "env/dev"
   }
 }
